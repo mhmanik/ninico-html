@@ -1,0 +1,32 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Ninico | Home 1{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block footer %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+ <!--=        Header Area Start         =-->
+<!--=====================================-->
+{% include 'header/header-welcome.html' %}
+<!--=====================================-->
+
+
+<!--=       Services Area Start         =-->
+<!--=====================================-->
+{% include 'welcome/welcome.html' %}
+ 
+ <!--=        Footer Area Start         =-->
+<!--=====================================-->
+{% include 'footer/footer-layout1.html' %}
+    
+
+{% endblock %}
