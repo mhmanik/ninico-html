@@ -10605,8 +10605,69 @@ blockquote .title a:hover {
 
 .footer-middle .footer-working-hour span {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--color-secondary);
+}
+
+.download-option-right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+}
+
+.download-option-right .footer-apps h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.download-option-right .footer-apps span {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-action);
+}
+
+.download-option-right .footer-contact-right ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.download-option-right .footer-contact-right ul li {
+    margin: 12px -10px 0 30px;
+}
+
+.foter-end {
+    background-color: #0c0c0c;
+}
+
+.foter-end .Copyright-part h5 {
+    color: #c1c1c1;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0 30px 0;
+}
+
+.payment-icon ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    padding: 30px 0 0 0;
+}
+
+.payment-icon ul li {
+    margin: -6px 15px 0 0;
 }
 
 /*-------------------------

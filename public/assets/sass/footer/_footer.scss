@@ -79,11 +79,62 @@
             font-weight: 700;
             color: var(--color-white);
         }
-
         span{
             font-size: 14px;
-            font-weight: 400;
+            font-weight: 600;
             color: var(--color-secondary);
+        }
+    }
+}
+
+.download-option-right{
+    display: flex;
+    justify-content: end;
+
+    .footer-apps{
+        h3{
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--color-white);
+        }
+        span{
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--color-action);
+        }
+    }
+    .footer-contact-right{
+
+        ul{
+            display: flex;
+            li{
+                margin: 12px -10px 0 30px;
+            }
+        }
+    }
+}
+
+.foter-end{
+    background-color: #0c0c0c;
+
+    .Copyright-part{
+        h5{
+         color: #c1c1c1;
+         font-size: 16px;
+         font-weight: 400;
+         margin: 30px 0 30px 0;
+        }
+    }   
+}
+
+.payment-icon{
+    ul{
+        display: flex;
+        justify-content: end;
+        padding: 30px 0 0 0;
+        
+        li{
+            margin: -6px 15px 0 0;
         }
     }
 }
