@@ -4,8 +4,10 @@
 :root {
 
 // Color
---color-primary: #000000;
+--color-primary:  #d51243;
 --color-secondary: #777777;
+--color-title: #040404;
+--color-subtitle:;
 
 --color-action: #777777;
 --color-button: #000000;
@@ -35,11 +37,10 @@
 --color-body-2: #999999;
 
 //Font Family
---font-primary: 'recoletaregular_demo';
---font-secondary: 'Roboto', sans-serif;
---font-extra: 'Dancing Script', cursive;
---font-awesome: 'Font Awesome 5 Free';
-
+--font-primary: 'Jost', sans-serif;;
+--font-secondary: 'Jost', sans-serif;
+--font-extra: 'Jost', sans-serif;
+--font-awesome: 'Jost', sans-serif;
 // Transition
 --transition: all 0.3s ease-in-out;
 
@@ -68,6 +69,7 @@
 --dark-light-border-color: #1e1e1e;
 --border-color: #000000;
 }
+
 // Layouts Variation
 $smlg-device: 'only screen and (max-width: 1199px)';
 $extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
