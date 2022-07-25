@@ -1,0 +1,180 @@
+/*-------------------------
+    Blog
+-------------------------*/
+/*-------------------------
+    Blog
+-------------------------*/
+
+
+
+.blog-area{
+  .fashion-part{
+    .blog-title{
+        h3{
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--color-title);
+            font-family: var(--font-primary);
+        }
+    }
+      .click-more-news{
+       text-align: right;
+        a{
+            span{
+                font-size: 16px;
+                font-weight: 600;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+            }
+            i{
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--color-title);
+                position: relative;
+                top: 3px;
+                margin-left: 3px;
+            }
+        }
+        &:hover{
+            span{
+                color: var(--color-primary);
+                transition: var(--transition);
+            }
+            i{
+                color: var(--color-primary);
+                transition: var(--transition);
+            }
+        }
+    }
+
+        .fashion-title{
+            ul{
+                margin: 0;
+                display: flex;
+                li{
+                    margin: 10px 30px 10px -16px;
+                    color: #dedede;
+                    span{
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: var(--font-primary);
+                        color: var(--color-secondary);
+                    }
+                    a{
+                        font-size: 14px;
+                        font-weight: 600;
+                        font-family: var(--font-primary);
+                        color: var(--color-title);
+                        &:hover{
+                        color: var(--color-primary);
+                        transition: var(--transition);
+                    }
+                    }
+                }
+            }
+            a{
+
+                font-size: 20px;
+                font-weight: 600;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+
+                &:hover{
+                color: var(--color-primary);
+                transition: var(--transition);
+            }
+            }
+        }
+        .Newsletter-update{
+            padding: 44px 15px 44px 15px;
+            border-radius: 6px;
+            background-color: var(--banner-bg);
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            span{
+                font-size: 20px;
+                font-weight: 400;
+                font-family: var(--font-extra);
+                color: var(--color-primary);
+            }
+            h4{
+                font-size: 26px;
+                font-weight: 700;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+            }
+
+            .subscribe-form{
+                background-color: var(--color-white);
+                height: 60px;
+                width: 300px;
+                margin: auto;
+                padding: 6px 0 0 0;
+                border: none;
+                border-radius: 6px;
+
+                input:focus {
+                  outline: none;
+                }
+
+                .enter-email{
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: var(--font-primary);
+                    color: #b0b0b0;
+                }
+            }
+            .submit-btn{
+
+                .submit{
+                    border: none;
+                    background-color: var(--color-white);
+                    height: 60px;
+                    width: 300px;
+                    margin-top: 12px;
+                    border-radius: 6px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: var(--font-primary);
+
+                i{
+                   font-size: 16px;
+                   font-weight: 400;
+                   color: var(--color-title);
+                   position: relative;
+                   top: 2px;
+                   margin-left: 5px;
+                }
+                }
+                &:hover{
+                    i{
+                        color: var(--color-white);
+                        transition: var(--transition);
+                    }
+                    .submit{
+                        background-color: var(--color-primary);
+                        color: var(--color-white);
+                        transition: var(--transition);
+                    }
+                }
+            }
+            .Newsletter-subtitle{
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: var(--font-primary);
+                    margin: 10px 0 0 0;
+                }
+            }
+        }
+        .form-shape{
+            position: absolute;
+            top: 21px;
+            left: 49%;
+            z-index: -1;
+        }
+    }
+}
+
+

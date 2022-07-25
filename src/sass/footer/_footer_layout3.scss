@@ -1,0 +1,98 @@
+/*-------------------------
+    Footer Styles
+-------------------------*/
+
+
+
+.footer-3{
+    margin: 100px 0 0 0;
+    .footer-logo{
+        margin-left: -37px;
+       padding: 62px 0 8px 0px;
+    }
+   
+    .footer-copyright{
+        span{
+            font-size: 13px;
+            font-weight: 400;
+            color: #979ea6;
+            font-family: var(--font-primary);
+        }
+    }
+    .subscribe-part{
+        padding: 70px 0 50px 0;
+        background-color: var(--color-title);
+        text-align: center;
+
+        .subscribe-title{
+        h3{
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--color-white);
+            font-family: var(--font-primary);
+        }
+        }
+        .subscribe-form{
+        .enter-email{
+        padding: 0 177px 0 0;
+        background: transparent;
+        border-bottom: 1px solid #d4d4d4;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: var(--color-white);
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: var(--font-primary);
+     }
+     input:focus{
+        outline: none;
+     }
+        i{
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--color-white);
+            position: relative;
+            top: 3px;
+            margin-left: 3px;
+            margin-left: -30px;
+            &:hover{
+                color: var(--color-primary);
+                transition: var(--transition);
+            }
+        }
+        }
+    }
+    .social-media{
+        padding: 50px 50px 59px 50px;
+        .social-media-follow{
+            padding: 0 40px 0 40px;
+            span{
+                font-size: 11px;
+                font-weight: 600;
+                color: #acacac;
+                font-family: var(--font-primary);
+            }
+        }
+        .social-media-icon{
+            ul{
+                display: flex;
+                margin: 71px 0 0 0;
+                li{
+                    margin-left: 30px;
+                   i{
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: var(--color-title);
+                    transition: var(--transition);
+                    &:hover{
+                        color: var(--color-primary)
+                    }
+                }
+                }
+            }
+        }
+    }
+}

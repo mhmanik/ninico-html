@@ -1,0 +1,115 @@
+/*-------------------------
+    Footer Styles
+-------------------------*/
+
+.footer-about{
+    .footer-about-us{
+        margin: 145px 0 0 359px;
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--color-title);
+            font-family: var(--font-primary);
+        }
+        p{
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--color-title);
+            font-family: var(--font-primary);
+            padding-top: 20px;
+            margin-bottom: 200px;
+        }
+    }
+    .copyright-part{
+        margin: 0 0 0 359px;
+        span{
+            font-size: 13px;
+            font-weight: 400;
+            color: #979ea6;
+            font-family: var(--font-primary);
+            margin-top: 120px;
+        }
+    }
+    .location-wrp{
+        background-color: #040404;
+        .our-location{
+            padding: 110px 0 0 250px;
+            span{
+                font-size: 11px;
+                font-weight: 400;
+                font-family: var(--font-primary);
+                color: var(--color-silver-2);
+            }
+        }
+        .office-location{
+            margin-left: 234px;
+            ul{
+                li{
+                    font-size: 15px;
+                    font-weight: 500;
+                    font-family: var(--font-primary);
+                    color: var(--color-white);
+
+                }
+            }
+        }
+        .office-location-2{
+            margin: 146px 0 100px 0;
+            ul{
+                li{
+                    font-size: 15px;
+                    font-weight: 500;
+                    font-family: var(--font-primary);
+                    color: var(--color-white);
+
+                }
+            }
+        }
+        .contact{
+            padding: 50px 250px 20px;
+            span{
+                font-size: 11px;
+                font-weight: 400;
+                font-family: var(--font-primary);
+                color: var(--color-silver-2);
+                text-transform: uppercase;
+            }
+        }
+        .Contact-number{
+            margin: 0 230px 130px;
+            ul{
+                li{
+                    font-size: 15px;
+                    font-weight: 500;
+                    font-family: var(--font-primary);
+                    color: var(--color-white);
+ 
+                }
+            }
+        }
+        .social-media-icon{
+            background-color: var(--color-primary);
+            padding: 25px 0 1px 50px;
+            position: relative;
+            right: 69%;
+            ul{
+                display: flex;
+                padding: 5px 0 0 30px;
+                li{
+                    margin-right: 25px;
+                    i{
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: var(--color-title);
+                        position: relative;
+                        top: 3px;
+                        &:hover{
+                            color: var(--color-white);
+                            transition: var(--transition);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

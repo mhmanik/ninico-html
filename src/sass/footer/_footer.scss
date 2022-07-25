@@ -1,0 +1,117 @@
+/*-------------------------
+    Footer Styles
+-------------------------*/
+
+.main-footer{
+    position: relative;
+    
+    .footer1-contact{
+        position: absolute;
+        top: 20%;
+      ul{
+        li{
+            line-height: 2.0;
+            a{
+                font-size: 36px;
+                font-weight: 600;
+                color: var(--color-white);
+                &:hover{
+                    transition: var(--transition);
+                    color: var(--color-primary);
+                }
+            }
+        }
+      }  
+    }
+    .newsletter-title{
+        margin-left: -45px;
+        position: absolute;
+        top: 22%;
+    p{
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--color-title);
+    }
+    }
+    .newsletter-from{
+        position: absolute;
+        top: 50%;
+        margin-left: -45px;
+
+    .enter-email{
+        padding: 0 177px 0 0;
+        background: transparent;
+        border-bottom: 1px solid #d4d4d4;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: var(--color-title);
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: var(--font-primary);
+     }
+     input:focus{
+        outline: none;
+     }
+        i{
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--color-title);
+            position: relative;
+            top: 3px;
+            margin-left: 3px;
+            margin-left: -30px;
+            &:hover{
+                color: var(--color-primary);
+                transition: var(--transition);
+            }
+        }
+    }
+   .footer-icon{
+        margin: 70px 0 50px 0;
+    .social-media{
+        ul{
+            display: flex;
+
+            li{
+                margin-right: 45px;
+                font-size: 13px;
+                font-weight: 700;
+                color: var(--color-title);
+                font-family: var(--font-primary);
+                i{
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: var(--color-title);
+                    transition: var(--transition);
+                    &:hover{
+                        color: var(--color-primary)
+
+
+                    }
+                }
+            }
+        }
+    }
+    .copyright-part{
+    span{
+        margin-top: 11px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #979ea6;
+        font-family: var(--font-primary);
+    }
+   }
+    .terms{
+    span{
+        margin-top: 11px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #979ea6;
+        font-family: var(--font-primary);
+    }
+   }
+   }
+}

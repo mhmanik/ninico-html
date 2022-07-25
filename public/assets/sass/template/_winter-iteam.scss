@@ -1,0 +1,283 @@
+/*-------------------------
+    Winter-iteam
+-------------------------*/
+/*-------------------------
+    Winter-iteam
+-------------------------*/
+
+
+
+.winter-iteam-area{
+    margin: 60px 0 60px 0;
+
+   .winter-iteam-part-1{
+    background-color: var(--color-winter-iteam-bg-1);
+    padding: 0 0 5px 0;
+    position: relative;
+
+    .img-1{
+        padding: 30px 0 0 0;
+    }
+    .click-more{
+        a{
+            opacity: 0;
+            visibility: hidden;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background: var(--color-white);
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            top: 40%;
+            transform: translateY(-40%);
+            margin: auto;
+            left: 0;
+            right: 0;
+            border-radius: 100%;
+            font-size: 18px;
+            justify-content: center;
+            transition: 0.3s;
+            z-index: 4;
+        }
+    }
+    .winter-iteam-text{
+      padding: 30px 0 0 0;
+      p{
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--color-secondary);
+        font-family: var(--font-primary);
+      }
+      h5{
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--color-title);
+        font-family: var(--font-primary);
+        a{
+            &:hover{
+                color: var(--color-primary);
+            }
+        }
+      }
+    }
+    &:hover{
+        .click-more{
+            a{
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(-50%);
+                top: 50%;
+            }
+        }
+    }
+
+   } 
+
+   .winter-iteam-part-2{
+    background-color: var(--color-winter-iteam-bg-2);
+    padding: 20px 0 1px 0;
+    position: relative;    
+    .img-2{
+         padding: 0 0 3px 0
+    }
+    .click-more{
+        a{
+            opacity: 0;
+            visibility: hidden;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background: var(--color-white);
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            top: 40%;
+            transform: translateY(-40%);
+            margin: auto;
+            left: 0;
+            right: 0;
+            border-radius: 100%;
+            font-size: 18px;
+            justify-content: center;
+            transition: 0.3s;
+            z-index: 4;
+        }
+    }
+
+    .winter-iteam-text{
+      padding: 30px 0 0 0;
+      p{
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--color-secondary);
+        font-family: var(--font-primary);
+      }
+      h5{
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--color-title);
+        font-family: var(--font-primary);
+        a{
+            &:hover{
+                color: var(--color-primary);
+            }
+        }
+      }
+    }
+    &:hover{
+        .click-more{
+            a{
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(-50%);
+                top: 50%;
+            }
+        }
+    }
+
+   }
+
+   .winter-jacket-1{
+    background-color: var(--color-winter-bg-3);
+    padding: 0 0 20px 0;
+    margin: 0 0 0 -30px;
+    position: relative;
+
+    .jacket-img{
+        padding: 30px 0 0 0;
+        position: relative;
+        z-index: 1;
+        .shape-part{
+            position: absolute;
+            z-index: -1;
+            top: 12%;
+            left: 43%;
+        }
+
+    .click-more{
+        a{
+            opacity: 0;
+            visibility: hidden;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background: var(--color-white);
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            top: 40%;
+            transform: translateY(-40%);
+            margin: auto;
+            left: 0;
+            right: 0;
+            border-radius: 100%;
+            font-size: 18px;
+            justify-content: center;
+            transition: 0.3s;
+            z-index: 4;
+        }
+    }
+    }
+    .winter-jacket-text{
+        padding: 25px 0 0 0;
+        p{
+          margin: 0;
+          font-size: 14px;
+          font-weight: 400;
+          color: var(--color-secondary);
+          font-family: var(--font-primary);
+        }
+        h2{
+          font-size: 40px;
+          font-weight: 700;
+          color: var(--color-title);
+          font-family: var(--font-primary);
+          a{
+            &:hover{
+                color: var(--color-primary);
+            }
+        }
+        }
+    }
+    &:hover{
+        .click-more{
+            a{
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(-50%);
+                top: 50%;
+            }
+        }
+    }
+   }
+    .winter-jacket-2{
+        background-color: var(--color-winter-iteam-bg-4);
+        padding: 0 0 1px;
+        margin: 0 0 0 -30px;
+        position: relative;
+
+        .jacket-img-2{
+            padding: 60px 0 0 0;
+        }
+        .click-more{
+         a{
+            opacity: 0;
+            visibility: hidden;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background: var(--color-white);
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            top: 40%;
+            transform: translateY(-40%);
+            margin: auto;
+            left: 0;
+            right: 0;
+            border-radius: 100%;
+            font-size: 18px;
+            justify-content: center;
+            transition: 0.3s;
+            z-index: 4;
+        }
+    }
+        .winter-iteam-text-2{
+            padding: 80px 0 0 0;
+
+            p{
+                margin: 0;
+                font-size: 14px;
+                font-weight: 400;
+                color: var(--color-secondary);
+                font-family: var(--font-primary);
+
+            }
+            h5{
+                font-size: 20px;
+                font-weight: 600;
+                color: var(--color-title);
+                font-family: var(--font-primary);
+            a{
+              &:hover{
+                color: var(--color-primary);
+             }
+            }
+          }
+        }
+        &:hover{
+         .click-more{
+            a{
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(-50%);
+                top: 50%;
+            }
+        }
+    }
+    }
+}
+

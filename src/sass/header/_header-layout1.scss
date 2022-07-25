@@ -1,0 +1,157 @@
+/*-------------------------
+    Header Styles
+-------------------------*/
+
+.container{
+  max-width: 1238px;
+  
+}
+
+
+ul, li{
+  list-style: none;
+}
+
+
+.main-header-2{
+    background-image: url("../media/qaitomo-Header2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .qaitomo-logo{
+        margin: 20px 0 0 0;
+    }
+    .qaitomo-menu{
+        margin: 20px 0 0 0;
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            li{
+                margin-left: 50px;
+                a{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #979ea6;
+                    font-family: var(--font-primary);
+                    &:hover{
+                        color: var(--color-title);
+                        transition: var(--transition);
+                    }
+                }
+            }
+        }
+    }
+    .our-things{
+        padding: 210px 40px 300px 40px;
+        .next-icon{
+            margin-bottom: 50px;
+            ul{
+                display: flex;
+                
+                li{
+                    margin-right: 30px;
+                    a{
+                        i{
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: var(--color-title);
+                            &:hover{
+                                color: var(--color-primary);
+                                transition: var(--transition);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .our-things-title{
+            margin-bottom: 55px;
+            h1{
+                font-size: 48px;
+                font-weight: 700;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+            }
+        }
+        .our-things-sub-title{
+            p{
+                font-size: 18px;
+                font-weight: 500;
+                font-family: var(--font-primary);
+                color: var(--color-title);  
+            }
+        }
+        .sneakers-wrp{
+            .Sneakers-pic{
+               img{
+                    width: 100%;
+               }
+            }
+            .Sneakers-title{
+                padding: 20px 20px 20px;
+                background-color: var(--color-white);
+                ul{
+                    
+                    li{
+                        font-size: 15px;
+                        font-weight: 600;
+                        font-family: var(--font-primary);
+                        color: var(--color-title);
+
+                        a{
+                            i{
+                                font-size: 15px;
+                                font-weight: 600;
+                                color: var(--color-title);
+                                &:hover{
+                                    color: var(--color-primary);
+                                    transition: var(--transition);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+   .pages{
+    .next-page{
+        ul{
+            display: flex;
+            li{
+                margin-right: 20px;
+                a{
+                    font-size: 11px;
+                    font-weight: 700;
+                    color: var(--color-title);
+                    padding: 15px 30px 15px 30px;
+                    &:hover{
+                        background-color: var(--color-primary);
+                        transition: var(--transition);
+                    }
+                }
+            }
+        }
+    }
+    .social-media-icon{
+        
+        margin-left: -60px;
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            li{
+                margin-left: 40px;
+                i{
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: var(--color-title);
+                    transition: var(--transition);
+                    &:hover{
+                        color: var(--color-primary)
+                    }
+                }
+            }
+        }
+   }   
+}
+}

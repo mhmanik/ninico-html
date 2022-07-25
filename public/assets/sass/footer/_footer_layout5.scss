@@ -1,0 +1,118 @@
+/*-------------------------
+    Footer Styles
+-------------------------*/
+
+
+
+.footer-5{
+        padding: 100px 0 0 0;
+    .qaitomo-logo{
+        margin: -10px -40px 14px;
+        .qaitomo-title{
+            padding: 6px 0 0 36px;
+            p{
+                font-size: 15px;
+                font-weight: 400;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+            }
+        }
+    }
+    .footer-menu{
+        span{
+            padding: 0 18px 0 18px;
+            font-size: 11px;
+            font-weight: 300;
+            font-family: var(--font-primary);
+            color: #acacac;
+        }
+        .footer-menu-list{
+            padding: 30px 0 0 0;
+            ul{
+                li{
+                    a{
+                        font-size: 13px;
+                        font-weight: 700;
+                        font-family: var(--font-primary);
+                        color: var(--color-title);
+                        transition: var(--transition);
+                        &:hover{
+                            color: var(--color-primary);
+                        }
+                    }
+                }
+            }
+        }
+    }
+   .social-media{
+        span{
+            padding: 0 18px 0 18px;
+            font-size: 11px;
+            font-weight: 300;
+            font-family: var(--font-primary);
+            color: #acacac;
+        } 
+    }
+    .social-media-list{
+        padding: 30px 0 0 0;
+        ul{
+            li{
+                a{
+                    font-size: 13px;
+                    font-weight: 700;
+                    font-family: var(--font-primary);
+                    color: var(--color-title);
+                    transition: var(--transition);
+                    &:hover{
+                        color: var(--color-primary);
+                    }
+                }
+            }
+        }
+    }
+    .copyright-part{
+
+        .copyright-title{
+            padding: 55px 0 40px 0;
+            span{
+                font-size: 13px;
+                font-weight: 400;
+                font-family: var(--font-primary);
+                color: #979ea6;
+            }
+        }
+    }
+    .subscribe-form{
+        padding: 0 18px 0 18px;
+        .enter-email{
+        padding: 0 177px 0 0;
+        background: transparent;
+        border-bottom: 1px solid #d4d4d4;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: var(--color-title);
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: var(--font-primary);
+     }
+     input:focus{
+        outline: none;
+     }
+        i{
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--color-title);
+            position: relative;
+            top: 3px;
+            margin-left: 3px;
+            margin-left: -30px;
+            &:hover{
+                color: var(--color-primary);
+                transition: var(--transition);
+            }
+        }
+    }
+}

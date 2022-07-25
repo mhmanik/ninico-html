@@ -1,0 +1,204 @@
+/*-------------------------
+    Typography
+-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+
+
+body {
+    font-family: var(--font-secondary);    
+    font-size: 16px;
+    line-height: 26px;
+    color: #777777;
+    font-weight: 400;
+    height: 100%;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+   
+}
+
+.active-dim-mode{
+     background-color: var(--color-dim);  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+address,
+p,
+pre,
+blockquote,
+table,
+hr {
+    margin: 0 0 20px 0;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-primary);
+    
+    
+    line-height: 1.4;
+    color: var(--color-primary);
+}
+
+
+h1,
+.h1 {
+    font-size: var(--h1);
+    line-height: 1.1;
+    @media only screen and (max-width: 1199px) {
+        font-size: 70px;   
+    }
+    @media only screen and (max-width: 991px) {
+        font-size: 60px;   
+    }
+    @media only screen and (max-width: 767px) {
+        font-size: 50px;   
+    }
+    @media only screen and (max-width: 575px) {
+        font-size: 40px;   
+    }
+}
+
+h2,
+.h2 {
+    font-size: var(--h2);
+    line-height: 1.2;
+    @media only screen and (max-width: 1199px) {
+        font-size: 50px;   
+    }
+    @media only screen and (max-width: 767px) {
+        font-size: 40px;   
+    }
+    @media only screen and (max-width: 575px) {
+        font-size: 36px;   
+    }
+}
+
+h3,
+.h3 {
+    font-size: var(--h3);
+    line-height: 1.3;
+     @media only screen and (max-width: 991px) {
+        font-size: 40px;   
+    }
+    @media only screen and (max-width: 767px) {
+        font-size: 36px;   
+    }
+    @media only screen and (max-width: 575px) {
+        font-size: 30px;   
+    }
+}
+
+h4,
+.h4 {
+    font-size: var(--h4);
+    line-height: 1.4;
+     @media only screen and (max-width: 991px) {
+        font-size: 30px;   
+    }
+    @media only screen and (max-width: 767px) {
+        font-size: 26px;   
+    }
+    @media only screen and (max-width: 575px) {
+        font-size: 24px;   
+    }
+}
+
+h5,
+.h5 {
+    font-size: var(--h5);
+    line-height: 1.42;
+    @media only screen and (max-width: 767px) {
+        font-size: 20px;   
+    }
+    @media only screen and (max-width: 575px) {
+        font-size: 18px;   
+    }
+}
+
+h6,
+.h6 {
+    font-size: var(--h6);
+    line-height: 1.6;
+    @media only screen and (max-width: 575px) {
+        font-size: 16px;   
+    }
+}
+
+p {
+    font-size: var(--font-body-1);
+    line-height: var(--line-height-b1);
+}
+.font-b1 {
+    font-size: var(--font-body-1);
+    line-height: var(--line-height-b1);
+}
+.font-b2 {
+    font-size: var(--font-body-2);
+    line-height: var(--line-height-b2);
+}
+.font-b3 {
+    font-size: var(--font-body-3);
+    line-height: var(--line-height-b3);
+}
+.font-b4 {
+    font-size: var(--font-body-4);
+    line-height: var(--line-height-b4);
+}
+.line-hover-effect {
+    position: relative;
+    display: inline;
+    background: linear-gradient(to right, currentColor 0%, currentColor 100%);
+    background-size: 0px 2px;
+    background-position: 0px 95%;
+    transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+    padding: 0.1% 0px;
+    background-repeat: no-repeat;
+    color: inherit;
+
+    &:hover {
+        background-size: 100% 2px;
+    }
+}
+
+.hover-line {
+    a {
+    position: relative;
+    display: inline;
+    background: linear-gradient(to right, currentColor 0%, currentColor 100%);
+    background-size: 0px 1px;
+    background-position: 0px 95%;
+    transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+    padding: 0.1% 0px;
+    background-repeat: no-repeat;
+
+        &:hover {
+            background-size: 100% 1px;
+        }
+    }
+}

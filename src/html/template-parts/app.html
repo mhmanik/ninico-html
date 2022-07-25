@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+<!-- Meta Data -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% block title %}{% endblock %}</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
+<link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+
+<link rel="stylesheet" href="assets/css/flaticon/flaticon.css">
+<link rel="stylesheet" href="assets/css/vendor/slick.css">
+<link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+<link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/vendor/sal.css">
+<link rel="stylesheet" href="assets/css/vendor/select2.min.css">
+<link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+{% block header %}{% endblock %}
+<!-- Site Stylesheet -->
+<link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+
+<body {% block attribute %}{% endblock %}>
+
+ 
+		<div class="main-content">
+
+
+			{% block content %}
+			{% endblock %}
+
+		</div>
+
+	
+
+ 
+	<!-- Jquery Js -->
+	<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/vendor/popper.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
+	<script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+	<script src="assets/js/vendor/slick.min.js"></script>
+	<script src="assets/js/vendor/jquery-ui.min.js"></script>
+	<script src="assets/js/vendor/circularProgressBar.min.js"></script>
+	<script src="assets/js/vendor/waypoints.min.js"></script>
+	<script src="assets/js/vendor/counterup.js"></script>
+	<script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/vendor/sal.js"></script>
+	<script src="assets/js/vendor/jquery.countdown.min.js"></script>
+	<script src="assets/js/vendor/select2.min.js"></script>
+	<script src="assets/js/vendor/validator.min.js"></script>
+	<script src="assets/js/vendor/js.cookie.js"></script>
+	<script src="assets/js/vendor/tilt.js"></script>
+	<script src="assets/js/vendor/jquery.nav.js"></script>
+	<script src="assets/js/vendor/jquery.style.switcher.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgvr0TR9iYcK0RYWUKyE9hCOtm9b4X80A"></script>
+	{% block footer %}{% endblock %}
+	<!-- Site Scripts -->
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>

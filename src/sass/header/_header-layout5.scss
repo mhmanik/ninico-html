@@ -1,0 +1,177 @@
+/*-------------------------
+    Header Styles
+-------------------------*/
+
+.container{
+  max-width: 1238px;
+  
+}
+
+
+ul, li{
+  list-style: none;
+}
+
+.main-header-6{
+    background-image: url("../media/qaitomo-Header6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .qaitomo-logo{
+        margin: 20px 0 0 0;
+        a{
+
+        }
+    }
+    .qaitomo-menu{
+        margin: 20px 0 0 0;
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            li{
+                margin-left: 50px;
+                a{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: var(--color-title);
+                    font-family: var(--font-primary);
+                    &:hover{
+                        color: var(--color-primary);
+                        transition: var(--transition);
+                    }
+                }
+            }
+        }
+    }
+    .social-media{
+        .our-social-media{
+            ul{
+            display: flex;
+            transform: rotate(90deg);
+            padding: 522px 0 0 280px; 
+            li{
+                margin-left: 50px;
+                a{
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: var(--color-white);
+                    font-family: var(--font-primary);
+                    &:hover{
+                        color: var(--color-primary);
+                        transition: var(--transition);
+                    }
+                }
+            }
+        
+        }
+    }
+    .fashion-title-part{
+        padding: 150px 0 0 241px;
+        .fashion-text{
+            margin-bottom: 35px;
+            span{
+                font-size: 11px;
+                font-weight: 400;
+                color: var(--color-silver-2);
+                font-family: var(--font-primary);
+                text-transform: uppercase;
+
+            }
+        }
+        .fashion-title{
+             margin-bottom: 35px;
+            h1{
+                font-size: 84px;
+                font-weight: 700;
+                color: var(--color-title);
+                font-family: var(--font-primary);
+            }
+        }
+        .fashion-sub-title{
+            margin-bottom: 45px;
+            p{
+                font-size: 15px;
+                font-weight: 500;
+                color: var(--color-title);
+                font-family: var(--font-primary);
+            }
+        }
+        .details-btn{
+        a{
+           font-size: 15px;
+           font-weight: 600;
+           font-family: var(--font-primary);
+           color: var(--color-title);
+           background-color: var(--color-primary);
+           padding: 14px 60px 14px 60px;
+           &:hover{
+                transition: var(--transition);
+                color: var(--color-white);
+                background-color: var(--color-title);
+           }
+        }
+    }
+    }
+}
+.countdown-part{
+    .countdown-1{
+        margin: 300px 0 50px 0;
+        margin-left: 30px;
+        span{
+            font-size: 13px;
+            font-weight: 600;
+            font-family: var(--font-primary);
+            color: var(--color-title);
+            margin-right: -158px;
+            padding: 102px 0 49px 0;
+            margin: -86px 0 0 86px;
+            &:before{
+                content: "";
+                position: absolute;
+                width: 150px;
+                height: 1px;
+                right: 49%;
+                margin: 13px;
+                transform: translateY(-50%);
+                background-color: var(--color-primary);
+            }
+        }
+    }
+    .countdown-2{
+        margin: 300px 0 50px 0;
+        margin-left: 30px;
+        span{
+            font-size: 13px;
+            font-weight: 600;
+            font-family: var(--font-primary);
+            color: var(--color-title);
+            margin-right: -158px;
+            padding: 102px 0 49px 0;
+            margin: -86px 0 0 13px;
+            &:before{
+                content: "";
+                position: absolute;
+                width: 150px;
+                height: 1px;
+                left: 49%;
+                margin: 13px;
+                transform: translateY(-50%);
+                background-color: #f3f3f3;
+            }
+        }
+    }
+    .share-icon{
+        margin: 340px 0 0 0;
+           a{
+            i{
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--color-title);
+                &:hover{
+                    color: var(--color-primary);
+                    transition: var(--transition);
+                }
+            }
+        }
+    }
+}
+}

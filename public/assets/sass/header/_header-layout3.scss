@@ -1,0 +1,158 @@
+/*-------------------------
+    Header Styles
+-------------------------*/
+
+.container{
+  max-width: 1238px;
+  
+}
+
+
+ul, li{
+  list-style: none;
+}
+
+.main-header-4{
+    background-image: url("../media/qaitomo-Header4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .qaitomo-logo{
+        margin: 20px 0 0 0;
+        a{
+
+        }
+    }
+    .social-media{
+        margin: 20px 0 0 0;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                margin-right: 50px;
+                a{
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #979ea6;
+                    font-family: var(--font-primary);
+                    &:hover{
+                        color: var(--color-title);
+                        transition: var(--transition);
+                    }
+                }
+            }
+        }
+    }
+    .search-icon{
+        margin: 20px 0 0 0;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                margin-left: 30px;
+                a{
+                    i{
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: var(--color-title);
+                        &:hover{
+                            color: var(--color-primary);
+                            transition: var(--transition);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .our-collection-wrp{
+        padding: 250px 0 84px 83px;
+        .our-collection{
+            span{
+                text-transform: uppercase;
+                margin-bottom: 35px;
+                font-size: 11px;
+                font-weight: 600;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+            }
+        }
+        .our-collection-title{
+            h1{
+                margin-bottom: 35px;
+                font-size: 48px;
+                font-weight: 700;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+            }
+        }
+        .our-collection-sub-title{
+            p{
+                font-size: 18px;
+                font-weight: 500;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+            }
+        }
+        .play-btn{         
+            padding: 60px 216px 0;
+            a{
+               i{
+                  font-size: 16px;
+                  font-weight: 600;
+                  color: var(--color-title);
+                  position: relative;
+                  top: 3px;
+                  margin-left: 3px;
+                  margin-left: -30px;
+                  padding: 30px 30px 30px 30px;
+                  border-radius: 100px;
+                  &:hover{
+                    transition: var(--transition);
+                    color: var(--color-white);
+                    background-color: var(--color-primary);
+                  }
+                } 
+            }
+        }
+    }
+   .start-now{
+        padding: 70px 0 0 80px;
+    .start-btn{
+        a{
+           font-size: 15px;
+           font-weight: 600;
+           font-family: var(--font-primary);
+           color: var(--color-title);
+           background-color: var(--color-primary);
+           padding: 12px 40px 12px 40px;
+           &:hover{
+                transition: var(--transition);
+                color: var(--color-white);
+                background-color: var(--color-title);
+           }
+        }
+    }
+    .scroll-down{
+        text-align: right;
+
+        span{
+            transform: rotate(90deg);
+            font-size: 13px;
+            font-weight: 600;
+            font-family: var(--font-primary);
+            color: var(--color-title);
+            margin-right: -158px;
+            padding: 117px 0 50px 0;
+            &:before{
+                content: "";
+                position: absolute;
+                width: 121px;
+                height: 1px;
+                left: -155px;
+                margin: 15px;
+                transform: translateY(-50%);
+                background-color: var(--color-white);
+            }
+        }
+    }
+   } 
+}

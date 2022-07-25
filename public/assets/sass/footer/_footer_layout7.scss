@@ -1,0 +1,126 @@
+/*-------------------------
+    Footer Styles
+-------------------------*/
+
+
+.footer-7{
+
+    .footer-7-title-bg{
+        position: relative;
+        padding-left: 143px;
+    }
+    .footer-7-title{
+        position: absolute;
+        left: 36%;
+         transform: translateY(-251px);
+        p{
+            font-size: 24px;
+            font-weight: 600;
+            font-family: var(--font-primary);
+            color: var(--color-white);
+        }
+        span{
+            font-size: 24px;
+            font-weight: 600;
+            font-family: var(--font-primary);
+            color: var(--color-primary);
+        }
+    }
+    .location-wrp{
+
+        .our-office-location{
+            margin: 30% 0 0 57%;
+            span{
+                font-size: 11px;
+                font-weight: 600;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+                text-transform: uppercase;
+            }
+            p{
+                margin-top: 30px;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+            }
+        }
+       .contact-info{
+            margin: 30% 20% 0;
+            span{
+                font-size: 11px;
+                font-weight: 600;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+                text-transform: uppercase;
+            }
+            p{
+                margin-top: 30px;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: var(--font-primary);
+                color: var(--color-title);
+                &:before{
+                content: "";
+                position: absolute;
+                left: 46%;
+                width: 9%;
+                height: 1px;
+                transform: rotate(90deg);
+                background-color: #d4d4d4;
+            }
+            }   
+       } 
+    }
+    .qaitomo-footer-menu{
+            padding: 70px 0 10px 0;
+     .social-media{
+         padding: 173px 0 0 0;
+        ul{
+            display: flex;
+            li{
+                margin-left: 40px;
+                i{
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: var(--color-title);
+                    transition: var(--transition);
+                    &:hover{
+                        color: var(--color-primary)
+                    }
+                }
+            }
+        }
+    }
+        .footer-menu{
+            padding: 100px 0 0 0;
+            ul{
+                display: flex;
+                justify-content: center;
+                li{
+                   margin-right: 50px;
+                   a{
+                    font-size: 15px;
+                    font-weight: 700;
+                    font-family: var(--font-primary);
+                    color: var(--color-title);
+                    transition: var(--transition);
+                    &:hover{
+                        color: var(--color-primary);
+                        border-bottom: 1px solid var(--color-primary);
+                    }
+                   } 
+                }
+            }
+        }
+        .copyright-title{
+                padding: 163px 0 0 80px;
+            span{
+                font-size: 13px;
+                font-weight: 400;
+                font-family: var(--font-primary);
+                color: #979ea6;
+            }
+        }
+    }
+}

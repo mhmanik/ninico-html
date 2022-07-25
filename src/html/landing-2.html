@@ -1,0 +1,48 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Qaitomo{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block footer %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+
+
+
+<!--=        Header Area Start         =-->
+<!--=====================================-->
+{% include 'header/header.html' %}
+<!--=====================================-->
+
+
+
+
+<!--=        landing Area Start         =-->
+<!--=====================================-->
+{% include 'landing/landing-2.html' %}
+<!--=====================================-->
+
+
+
+
+
+
+<!--=        Footer Area Start         =-->
+<!--=====================================-->
+{% include 'footer/footer-layout2.html' %}
+<!--=====================================-->
+
+
+    
+
+{% endblock %}
